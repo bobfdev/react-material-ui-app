@@ -47,7 +47,7 @@ export class UserForm extends Component {
         };
         
         switch (step) {
-           case 1:
+           case 1: 
                 return (
                     <FormUserDetails 
                         nextStep={this.nextStep}
@@ -76,6 +76,7 @@ export class UserForm extends Component {
                 return (
                     <Success />
                 );
+            default:
         }
     }
 };
